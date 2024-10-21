@@ -1,0 +1,66 @@
+:root{
+    --dark-blue: #02072c;
+    --purple: #6d05dc;
+}
+
+body{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+
+.navigation{
+    background-color: var(--purple);
+    padding-bottom: 3%;
+    
+}
+a:link {
+    color: white;
+    background-color: var(--dark-blue);
+}
+
+
+
+
+.heading{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.input-name{
+    display: block;
+    margin-left: 32.5rem;
+    margin-bottom: 0.5rem;
+    font-size: large;
+}
+
+.angle-input{
+    display: block;
+    margin: auto;
+    padding-right: 20rem;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+#submit-btn{
+ margin-left: 34%;
+ padding-left: 12rem;
+ padding-right: 13rem;
+ padding-bottom: 0.5%;
+ margin-bottom: 4rem;
+ background-color: var(--purple);
+ color: white;
+ font-size: medium;
+ font-weight: 500;
+ display: block;
+}
+
+#output{
+    color: black;
+    margin-top: 5rem;
+    margin-left: 43rem;
+    font-size: x-large;
+    background-color: white;
+    font-weight: 600;
+}
