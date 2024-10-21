@@ -57,10 +57,9 @@ a:link {
 }
 
 #output{
-    color: black;
+    color: var(--purple);
     margin-top: 5rem;
-    margin-left: 43rem;
+    text-align: center;
     font-size: x-large;
-    background-color: white;
     font-weight: 600;
 }

@@ -14,11 +14,11 @@ const angle3 = Number(input[2].value)
 let addInput  = angle1 + angle2 + angle3;
 
  if (addInput == 180){
-  output.style.display = "inline";
-   output.innerText = "it is a triangle"; 
+  output.style.display = "block";
+  output.innerText = "Yay,The angle form a triangle."; 
  }else{
-  output.style.display = "inline";
-  output.innerText = "it is not a triangle"; 
+  output.style.display = "block";
+  output.innerText = "Oh Oh! the angles don't form a triangle."; 
 }
 
 }
