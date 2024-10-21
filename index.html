@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Fun With Triangle</title>
 </head>
 <body>
 
-  <nav>
-    <a href="./">Is Triangle?</a>
-    <a href="quiz.html">Quiz</a>
-    <a href="hypotenuse.html">Hypotenuse</a>
-    <a href="area.html">Area</a>
+  <nav class="navigation">
+    <a href="./" style="color: white; background-color: #6d05dc;  text-decoration: none; font-size: large;padding-left: 1%;">Is Triangle?</a>
+    <a href="quiz.html" style="color: white; background-color: #6d05dc;  text-decoration: none; padding-left: 0.5%;  font-size: large;">Quiz</a>
+    <a href="hypotenuse.html" style="color: white; background-color: #6d05dc;  text-decoration: none;padding-left: 0.5%;  font-size: large;">Hypotenuse</a>
+    <a href="area.html" style="color: white; background-color: #6d05dc; text-decoration: none;padding-left: 0.5%; font-size: large;">Area</a>
   </nav>
 
+    <div class="container">
+    <h1 class="heading">Is Triangle?</h1>
 
-    <h1>Is Triangle?</h1>
-
-    <label for="angle-1">angle1(in degrees)</label>
+    <label for="angle-1" class="input-name">angle1(in degrees)</label>
     <input type="number" class="angle-input">
 
-    <label for="angle-2">angle2(in degrees)</label>
+    <label for="angle-2" class="input-name">angle2(in degrees)</label>
     <input type="number" class="angle-input">
 
-    <label for="angle-3">angle3(in degrees)</label>
+    <label for="angle-3" class="input-name">angle3(in degrees)</label>
     <input type="number" class="angle-input">
 
     <button id="submit-btn">Is Triangle?</button>
 
-    <div id="output"></div>
+    <p id="output"></p>
+  </div>
 </body>
+<script src="isTriangle.js"></script>
 </html>
