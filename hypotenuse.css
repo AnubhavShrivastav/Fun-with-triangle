@@ -1,0 +1,62 @@
+:root{
+    --dark-blue: #02072c;
+    --purple: #6d05dc;
+}
+
+body{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+.navigation{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: var(--purple);
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding-left: 1%;
+    font-size: larger;
+}
+
+#heading{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+#formula{
+     text-align: center;
+     padding: 0.5% 2% 0.5% 2%;
+     border: 2px solid var(--purple);
+     margin: 0.5% 29% 3% 29%;
+     font-size: xx-large;
+    }
+
+
+.input-name{
+    margin-left: 30%;
+    font-size: larger;
+}
+
+.input-value{
+    display: block;
+    margin-top: 0.2%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    width: 40%;
+    height: 4vh;
+}
+
+#check{
+    background-color: var(--purple);
+    margin-top: 1%;
+    margin-left: 30%;
+    width: 40%;
+    height: 4vh;
+    font-size: larger;
+    color: white;
+}
+
