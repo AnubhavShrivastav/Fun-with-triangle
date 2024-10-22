@@ -11,18 +11,16 @@ body{
 
 .navigation{
     background-color: var(--purple);
-    padding-bottom: 3%;
+    padding-bottom: 1%;
+    padding-top: 3%;
     
-}
-a:link {
-    color: white;
-    background-color: var(--dark-blue);
 }
 
 
 
 
 .heading{
+    margin-top: 5%;
     margin-bottom: 3rem;
     text-align: center;
 }
