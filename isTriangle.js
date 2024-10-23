@@ -11,6 +11,7 @@ const angle1 = Number(input[0].value);
 const angle2 = Number(input[1].value);
 const angle3 = Number(input[2].value)
 
+if(angle1,angle2,angle3){
 let addInput  = angle1 + angle2 + angle3;
 
  if (addInput == 180){
@@ -19,6 +20,10 @@ let addInput  = angle1 + angle2 + angle3;
  }else{
   output.style.display = "block";
   output.innerText = "Oh Oh! the angles don't form a triangle."; 
+}
+}else{
+  output.style.display = "block";
+  output.innerText = "Please enter the value in all field";
 }
 
 }
